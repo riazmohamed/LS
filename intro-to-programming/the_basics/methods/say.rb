@@ -1,10 +1,10 @@
-# say.rb refactored
+# say.rb refactored again
 
-def say(words)
+def say(words='hello') # 'hello is the default parameter assigned to words'
   puts words + "." # changes made in one place takes effect througout the programe where the method say is called
 end
 
-say("hello")
+say() # Even though we haven't assigned any arguments, this returns "hello" because we assigned the default parameter
 say("hi")
 say("how are you")
 say("I'm fine")
