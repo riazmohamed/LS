@@ -8,3 +8,12 @@ loop do
     break   # this will cause execution to exit the loop.
   end
 end
+
+x = 0
+
+while x <= 10
+  if x.odd?
+    puts x
+  end
+  x += 1
+end
