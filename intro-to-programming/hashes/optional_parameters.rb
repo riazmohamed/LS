@@ -14,3 +14,4 @@ greeting("Bob", {age: 62, city: "New York City"})
 puts "-------"
 # the above value can also be passed as
 greeting("Bob", age: 62, city: "New York City")
+# note that the curly bracets {} are not needed when the hash is the last argument.
