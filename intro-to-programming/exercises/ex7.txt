@@ -1,0 +1,16 @@
+# ex7.txt
+
+What's the major difference between an Array and a Hash?
+Array:
+  1. contains elements as a set of ordered list
+  2. they are separated by a comma
+  3. they are good for last in first out stack evaluation processes
+  4. They can be retrieved by their index (they start from 0 onwards)
+  5. They can have nested arrays as individual elements within an array
+
+Hashes:
+  1. Hashes exists in a state of key, value pairs.
+  2. the keys can be a symbol, integer, float or a string
+  3. the values can be any datatype within the boundaries provided by Ruby
+  4. the value can also be an array
+  5. key can be retreived through the value and vice versa.
